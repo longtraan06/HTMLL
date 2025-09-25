@@ -9,7 +9,7 @@ Table 1
 
 Table 2: example of footnotes referenced from within a table
 
-| Expenditure by function £ million |                  | 2009/10 | 2010/111 |
+| Expenditure by function £ million                   | 2009/10 | 2010/111 |
 |-----------------------------------|------------------|---------|----------|
 | Policy functions                  | Financial        | 22.5    | 30.57    |
 |                                   | Information2     | 10.2    | 14.8     |
@@ -48,7 +48,7 @@ Table 5: year-end financial statement (£, thousands)
 
 |                             | 2010 | 2009 | 2008 |
 |-----------------------------|------|------|------|
-| Non-current assets          |      |      |      |
+| Non-current assets                               |
 | Property                    | 345  | 445  | 222  |
 | Investment                  | 567  | 654  | 423  |
 | Intangibles                 | 423  | 123  | 453  |
