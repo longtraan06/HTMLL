@@ -48,7 +48,7 @@ Table 5: year-end financial statement (£, thousands)
 
 |                             | 2010 | 2009 | 2008 |
 |-----------------------------|------|------|------|
-| Non-current assets                               |
+| Non-current assets          |      |      |      |
 | Property                    | 345  | 445  | 222  |
 | Investment                  | 567  | 654  | 423  |
 | Intangibles                 | 423  | 123  | 453  |
@@ -61,11 +61,11 @@ Table 6: a table with a more serious headings problem
 
 | Rainfall (inches) | Americas | Asia | Europe | Africa |
 |-------------------|----------|------|--------|--------|
-|                   | 2010     |      |        |        |
+|                   |          | 2010 |        |        |
 | Average           | 104      | 201  | 193    | 144    |
 | 24 hour high      | 15       | 26   | 27     | 18     |
 | 12 hour high      | 9        | 10   | 11     | 12     |
-|                   | 2009     |      |        |        |
+|                   |          | 2009 |        |        |
 | Average           | 133      | 244  | 155    | 166    |
 | 24 hour high      | 27       | 28   | 29     | 20     |
 | 12 hour high      | 11       | 12   | 13     | 16     |
@@ -167,14 +167,14 @@ B = Bachelor of Arts, C = Masters, D = Doctorate, E = Diploma
 
 **Table 16: Masters courses offered by Institution X** 
 
-|                         | 2006 | 2007 | 2008 | 2009 |
-|-------------------------|------|------|------|------|
-| Economics               | No   | Yes  | Yes  | Yes  |
-| International relations | No   | No   | No   | No   |
-| Philosophy              | No   | No   | No   | No   |
-| Politics                | No   | No   | No   | No   |
-| Mathematics             | Yes  | No   | No   | No   |
-| English                 | Yes  | Yes  | Yes  | Yes  |
+|                                | <b>2006</b> | <b>2007</b> | <b>2008</b> | <b>2009</b> |
+|--------------------------------|-------------|-------------|-------------|-------------|
+| <b>Economics</b>               | No          | Yes         | Yes         | Yes         |
+| <b>International relations</b> | No          | No          | No          | No          |
+| <b>Philosophy</b>              | No          | No          | No          | No          |
+| <b>Politics</b>                | No          | No          | No          | No          |
+| <b>Mathematics</b>             | Yes         | No          | No          | No          |
+| <b>English</b>                 | Yes         | Yes         | Yes         | Yes         |
 
 Table 17: accounts, 2011 (£, thousands)
 
@@ -219,15 +219,15 @@ Table 19: Human Development Index (HDI) trends, 1980 to 2010. Source: Barro-Lee 
 
 Table 20: footnotes referenced from within a table
 
-| Expenditure by function £million |                              | 2009/10 | 2010/11 1 |
-|----------------------------------|------------------------------|---------|-----------|
-| Policy functions                 | Financial                    | 22.5    | 30.57     |
-|                                  | Information <sup>2</sup>     | 10.2    | 14.8      |
-|                                  | Contingency                  | 2.6     | 1.2       |
-| Remunerated functions            | Agency services <sup>3</sup> | 44.7    | 35.91     |
-|                                  | Payments                     | 22.41   | 19.88     |
-|                                  | Banking                      |         | 44.23     |
-|                                  | Other                        | 12.69   | 10.32     |
+| Expenditure by function £million |                  | 2009/10 | 2010/111 |
+|----------------------------------|------------------|---------|----------|
+| Policy functions                 | Financial        | 22.5    | 30.57    |
+|                                  | Information2     | 10.2    | 14.8     |
+|                                  | Contingency      | 2.6     | 1.2      |
+| Remunerated functions            | Agency services3 | 44.7    | 35.91    |
+|                                  | Payments         | 22.41   | 19.88    |
+|                                  | Banking          | 22.90   | 44.23    |
+|                                  | Other            | 12.69   | 10.32    |
 
 - (1) Provisional total as of publication date.
 - (2) Costs associated with on-going information programmes.
@@ -260,28 +260,28 @@ Table 22: referencing multiple endnotes from within a table
 
 Table 23: simulated table created using tabs and containing no structure
 
-|      | 2008    |                   | 2009 |           |
-|------|---------|-------------------|------|-----------|
-| Name | Entered | Entered Completed |      | Completed |
-| Bob  | 22      | 21                | 20   | 19        |
-| Sue  | 44      | 12                | 12   | 10        |
+|      | 2008    |           | 2009    |           |
+|------|---------|-----------|---------|-----------|
+| Name | Entered | Completed | Entered | Completed |
+| Bob  | 22      | 21        | 20      | 19        |
+| Sue  | 44      | 12        | 12      | 10        |
 
 Table 24: year-end financial statement (£, thousands)
 
-|                     | 2010 | 2009 | 2008 |  |  |
-|---------------------|------|------|------|--|--|
-| Non-current assets  |      |      |      |  |  |
-| Buildings           | 345  | 445  | 222  |  |  |
-| Investment          | 567  | 654  | 423  |  |  |
-| Intangibles         | 423  | 123  | 453  |  |  |
-| Current assets      |      |      |      |  |  |
-| Trade               | 435  | 634  | 231  |  |  |
-| Cash                | 524  | 123  | 482  |  |  |
-| Other               | 223  | 211  | 254  |  |  |
-| Current liabilities |      |      |      |  |  |
-| Trade liabilities   | 154  | 125  | 421  |  |  |
-| Financial debt      | 231  | 474  | 572  |  |  |
-| Provisions          | 111  | 312  | 347  |  |  |
+|                     | 2010 | 2009 | 2008 |
+|---------------------|------|------|------|
+| Non-current assets  |      |      |      |
+| Buildings           | 345  | 445  | 222  |
+| Investment          | 567  | 654  | 423  |
+| Intangibles         | 423  | 123  | 453  |
+| Current assets      |      |      |      |
+| Trade               | 435  | 634  | 231  |
+| Cash                | 524  | 123  | 482  |
+| Other               | 223  | 211  | 254  |
+| Current liabilities |      |      |      |
+| Trade liabilities   | 154  | 125  | 421  |
+| Financial debt      | 231  | 474  | 572  |
+| Provisions          | 111  | 312  | 347  |
 
 Table 25: setting column and row scope via the tags panel
 
@@ -332,15 +332,15 @@ Table 29: multiple headers attributes for each data cell
 
 |                     | South America | Asia  | Africa | Australia |
 |---------------------|---------------|-------|--------|-----------|
-| 2010                |               |       |        |           |
+|                     | 2010          |       |        |           |
 | Highest average     | 523.6         | 467.4 | 405.0  | 340.5     |
 | Highest in 24 hours | 73.1          | 54.1  | 27.2   | 66.3      |
 | Highest in 12 hours | 42.4          | 30.1  | 15.9   | 40.3      |
-| 2009                |               |       |        |           |
+|                     | 2009          |       |        |           |
 | Highest average     | 487.7         | 453.6 | 398.7  | 356       |
 | Highest in 24 hours | 67.2          | 53.2  | 44.3   | 53.8      |
 | Highest in 12 hours | 34.7          | 34.1  | 29.8   | 31.0      |
-| 2008                |               |       |        |           |
+|                     | 2008          |       |        |           |
 | Highest average     | 496.7         | 444.3 | 502.1  | 399.6     |
 | Highest in 24 hours | 44.2          | 56.7  | 32.1   | 63.2      |
 | Highest in 12 hours | 30.1          | 32.7  | 21.9   | 40.2      |
