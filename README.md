@@ -9,7 +9,7 @@ Table 1
 
 Table 2: example of footnotes referenced from within a table
 
-| Expenditure by function £ million                   | 2009/10 | 2010/111 |
+| Expenditure by function £ million |                  | 2009/10 | 2010/111 |
 |-----------------------------------|------------------|---------|----------|
 | Policy functions                  | Financial        | 22.5    | 30.57    |
 |                                   | Information2     | 10.2    | 14.8     |
