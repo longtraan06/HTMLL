@@ -2,10 +2,10 @@
 
 **Table 1** 
 
-| Column header<br>(TH) | Column header (TH) | Column header<br>(TH) |
-|-----------------------|--------------------|-----------------------|
-| Row header<br>(TH)    | Data cell<br>(TD)  | Data cell<br>(TD)     |
-| Row header(TH)        | Data cell<br>(TD)  | Data cell<br>(TD)     |
+| Column header (TH) | Column header (TH) | Column header (TH) |
+|--------------------|--------------------|--------------------|
+| Row header (TH)    | Data cell (TD)     | Data cell (TD)     |
+| Row header (TH)    | Data cell (TD)     | Data cell (TD)     |
 
 **Table 2: example of footnotes referenced from within a table**
 
@@ -61,11 +61,11 @@
 
 | Rainfall<br>(inches) | Americas | Asia | Europe | Africa |
 |----------------------|----------|------|--------|--------|
-|                      |          | 2010 |        |        |
+|                      | 2010     |      |        |        |
 | Average              | 104      | 201  | 193    | 144    |
 | 24 hour high         | 15       | 26   | 27     | 18     |
 | 12 hour high         | 9        | 10   | 11     | 12     |
-|                      |          | 2009 |        |        |
+|                      | 2009     |      |        |        |
 | Average              | 133      | 244  | 155    | 166    |
 | 24 hour high         | 27       | 28   | 29     | 20     |
 | 12 hour high         | 11       | 12   | 13     | 16     |
@@ -137,13 +137,13 @@
 | Sue  | 3                                                              | 8  | 4                                                              | 7  |
 | Sam  | [data relating to both columns in a single cell spanning both] |    | [data relating to both columns in a single cell spanning both] |    |
 
-**Table 13: use of graphic symbols** 
+**Table 13: use of graphic symbols**
 
-| Question                       | Respondent A                             | Respondent B                             | Respondent C                             |
-|--------------------------------|------------------------------------------|------------------------------------------|------------------------------------------|
-| Are you a UK citizen?          | <span style="font-size: 1.5em;">☒</span> | <span style="font-size: 1.5em;">✓</span> | <span style="font-size: 1.5em;">☒</span> |
-| Are you currently employed?    | <span style="font-size: 1.5em;">✓</span> | <span style="font-size: 1.5em;">☒</span> | <span style="font-size: 1.5em;">✓</span> |
-| Do you have a driving licence? | <span style="font-size: 1.5em;">☒</span> | <span style="font-size: 1.5em;">☒</span> | <span style="font-size: 1.5em;">✓</span> |
+| Question                       | Respondent A | Respondent B | Respondent C |
+|--------------------------------|--------------|--------------|--------------|
+| Are you a UK citizen?          | [Cross]      | [Checkmark]  | [Cross]      |
+| Are you currently employed?    | [Checkmark]  | [Cross]      | [Checkmark]  |
+| Do you have a driving licence? | [Cross]      | [Cross]      | [Checkmark]  |
 
 **Table 14: symbols replaced by real text**
 
@@ -177,18 +177,18 @@
 
 **Table 17: accounts, 2011 (£, thousands)** 
 
-| Accounting item      |                        | 2011            |
-|----------------------|------------------------|-----------------|
-| Income               | General income         | 200,000         |
-|                      | Increase in value, WIP | 30,000          |
-|                      | Income subtotal        | 230,000         |
-| Administrative costs | Staff                  | 150,000         |
-|                      | Early departures       | 20,000          |
-|                      | Other operating costs  | 10,000          |
-|                      | Depreciation           | 10,000          |
-|                      | Programme costs        | Impairment loss |
-| Costs subtotal       |                        | 200,000         |
-| Balance              |                        | 30,000          |
+| Accounting item      |                        | 2011    |
+|----------------------|------------------------|---------|
+| Income               | General income         | 200,000 |
+|                      | Increase in value, WIP | 30,000  |
+|                      | Income subtotal        | 230,000 |
+| Administrative costs | Staff                  | 150,000 |
+|                      | Early departures       | 20,000  |
+|                      | Other operating costs  | 10,000  |
+|                      | Depreciation           | 10,000  |
+| Programme costs      | Impairment loss        | 10,000  |
+|                      | Costs subtotal         | 200,000 |
+|                      | Balance                | 30,000  |
 
 **Table 18: accounts, 2011 (£, thousands)**
 
