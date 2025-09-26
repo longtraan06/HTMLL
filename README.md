@@ -137,13 +137,13 @@
 | Sue  | 3                                                              | 8  | 4                                                              | 7  |
 | Sam  | [data relating to both columns in a single cell spanning both] |    | [data relating to both columns in a single cell spanning both] |    |
 
-**Table 13: use of graphic symbols**
+**Table 13: use of graphic symbols** 
 
-| Question                       | Respondent A     | Respondent B     | Respondent C     |
-|--------------------------------|------------------|------------------|------------------|
-| Are you a UK citizen?          | Image: cross     | Image: checkmark | Image: cross     |
-| Are you currently employed?    | Image: checkmark | Image: cross     | Image: checkmark |
-| Do you have a driving licence? | Image: cross     | Image: cross     | Image: checkmark |
+| Question                       | Respondent A                             | Respondent B                             | Respondent C                             |
+|--------------------------------|------------------------------------------|------------------------------------------|------------------------------------------|
+| Are you a UK citizen?          | <span style="font-size: 1.5em;">☒</span> | <span style="font-size: 1.5em;">✓</span> | <span style="font-size: 1.5em;">☒</span> |
+| Are you currently employed?    | <span style="font-size: 1.5em;">✓</span> | <span style="font-size: 1.5em;">☒</span> | <span style="font-size: 1.5em;">✓</span> |
+| Do you have a driving licence? | <span style="font-size: 1.5em;">☒</span> | <span style="font-size: 1.5em;">☒</span> | <span style="font-size: 1.5em;">✓</span> |
 
 **Table 14: symbols replaced by real text**
 
