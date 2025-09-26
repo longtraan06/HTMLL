@@ -1,4 +1,4 @@
-# Design and build accessible PDF tables Sample tables
+## Design and build accessible PDF tables Sample tables
 
 Table 1
 
@@ -9,15 +9,15 @@ Table 1
 
 Table 2: example of footnotes referenced from within a table
 
-| Expenditure by function £ million |                  | 2009/10 | 2010/111 |
-|-----------------------------------|------------------|---------|----------|
-| Policy functions                  | Financial        | 22.5    | 30.57    |
-|                                   | Information2     | 10.2    | 14.8     |
-|                                   | Contingency      | 2.6     | 1.2      |
-| Remunerated functions             | Agency services3 | 44.7    | 35.91    |
-|                                   | Payments         | 22.41   | 19.88    |
-|                                   | Banking          | 22.90   | 44.23    |
-|                                   | Other            | 12.69   | 10.32    |
+| Expenditure by function £ million |                              | 2009/10 | 2010/11 1 |
+|-----------------------------------|------------------------------|---------|-----------|
+| Policy functions                  | Financial                    | 22.5    | 30.57     |
+|                                   | Information <sup>2</sup>     | 10.2    | 14.8      |
+|                                   | Contingency                  | 2.6     | 1.2       |
+| Remunerated functions             | Agency services <sup>3</sup> | 44.7    | 35.91     |
+|                                   | Payments                     | 22.41   | 19.88     |
+|                                   | Banking                      | 22.90   | 44.23     |
+|                                   | Other                        | 12.69   | 10.32     |
 
 - (1) Provisional total as of publication date.
 - (2) Costs associated with on-going information programmes.
@@ -46,16 +46,16 @@ Table 4: table 3 with column headers added
 
 Table 5: year-end financial statement (£, thousands)
 
-|                             | 2010 | 2009 | 2008 |
-|-----------------------------|------|------|------|
-| Non-current assets          |      |      |      |
-| Property                    | 345  | 445  | 222  |
-| Investment                  | 567  | 654  | 423  |
-| Intangibles                 | 423  | 123  | 453  |
-| Current assets              |      |      |      |
-| Trade and other receivables | 435  | 634  | 231  |
-| Cash and cash equivalents   | 524  | 123  | 482  |
-| Other                       | 223  | 211  | 254  |
+|                             | 2010 | 2009 | 2008 |  |  |
+|-----------------------------|------|------|------|--|--|
+| Non-current assets          |      |      |      |  |  |
+| Property                    | 345  | 445  | 222  |  |  |
+| Investment                  | 567  | 654  | 423  |  |  |
+| Intangibles                 | 423  | 123  | 453  |  |  |
+| Current assets              |      | •    | •    |  |  |
+| Trade and other receivables | 435  | 634  | 231  |  |  |
+| Cash and cash equivalents   | 524  | 123  | 482  |  |  |
+| Other                       | 223  | 211  | 254  |  |  |
 
 Table 6: a table with a more serious headings problem
 
@@ -96,27 +96,28 @@ Table 9: rainfall by continent, 2009
 
 Table 10: self-contained year-end statement (£, thousands) (multiple layout problems)
 
-|                        | 2011      | 2010 restated |
-|------------------------|-----------|---------------|
-| General income         | 250,000   | 200,000       |
-| Increase in value, WIP | 15,000    | 30,000        |
-|                        | 265,000   | 230,000       |
-| Administrative costs   |           |               |
-| Staff costs            | (200,000) | (150,000)     |
-| Early departures       | (10,000)  | (20,000)      |
-| Other                  | (25,000)  | (10,000)      |
-| Depreciation           | (10,000)  | (10,000)      |
-| Programme costs        |           |               |
-| Impairment loss        | (10,000)  | (5,000)       |
-| Other                  | (5,000)   | (5,000)       |
-|                        | (260,000) | (200,000)     |
-| Surplus                | 5,000     | 30,000        |
+|                        | 201       | 1       | 2010 re   | stated  |
+|------------------------|-----------|---------|-----------|---------|
+| General income         |           | 250,000 |           | 200,000 |
+| Increase in value, WIP |           | 15,000  |           | 30,000  |
+|                        |           | 265,000 |           | 230,000 |
+| Administrative costs   |           |         |           |         |
+| Staff costs            | (200,000) |         | (150,000) |         |
+| Early departures       | (10,000)  |         | (20,000)  |         |
+| Other                  | (25,000)  |         | (10,000)  |         |
+| Depreciation           | (10,000)  |         | (10,000)  |         |
+| Programme costs        |           |         | 1         |         |
+| Impairment loss        | (10,000)  |         | (5,000)   |         |
+| Other                  | (5,000)   |         | (5,000)   |         |
+|                        | (260,000) |         | (200,000) |         |
+| Surplus                |           | 5,000   |           | 30,000  |
 
 Table 11: self-contained year-end statement (£, thousands) (multiple problems resolved)
 
 |                      |                       | 2011      | 2010 restated |
 |----------------------|-----------------------|-----------|---------------|
 | Income               | General income        | 250,000   | 200,000       |
+| Income               |                       |           | ,             |
 |                      | Increase in value     | 15,000    | 30,000        |
 |                      | Total income          | 265,000   | 230,000       |
 | Administrative costs | Staff costs           | (200,000) | (150,000)     |
@@ -130,20 +131,20 @@ Table 11: self-contained year-end statement (£, thousands) (multiple problems r
 
 Table 12: merged data cells are not recommended
 
-|      | 2008                                                           |    | 2009                                                           |    |
-|------|----------------------------------------------------------------|----|----------------------------------------------------------------|----|
-| Name | Yes                                                            | No | Yes                                                            | No |
-| Bob  | 2                                                              | 5  | 6                                                              | 7  |
-| Sue  | 3                                                              | 8  | 4                                                              | 7  |
-| Sam  | [data relating to both columns in a single cell spanning both] |    | [data relating to both columns in a single cell spanning both] |    |
+|      | 2008                                                           |    | 20                                   | 09                         |
+|------|----------------------------------------------------------------|----|--------------------------------------|----------------------------|
+| Name | Yes                                                            | No | Yes                                  | No                         |
+| Bob  | 2                                                              | 5  | 6                                    | 7                          |
+| Sue  | 3                                                              | 8  | 4                                    | 7                          |
+| Sam  | [data relating to both columns in a single cell spanning both] |    | [data relating to a single cell spar | both columns in ning both] |
 
 **Table 13: use of graphic symbols** 
 
-| Question                       | Respondent A                             | Respondent B                             | Respondent C                             |
-|--------------------------------|------------------------------------------|------------------------------------------|------------------------------------------|
-| Are you a UK citizen?          | <span style="font-size: 1.5em;">☒</span> | <span style="font-size: 1.5em;">✓</span> | <span style="font-size: 1.5em;">☒</span> |
-| Are you currently employed?    | <span style="font-size: 1.5em;">✓</span> | <span style="font-size: 1.5em;">☒</span> | <span style="font-size: 1.5em;">✓</span> |
-| Do you have a driving licence? | <span style="font-size: 1.5em;">☒</span> | <span style="font-size: 1.5em;">☒</span> | <span style="font-size: 1.5em;">✓</span> |
+| Question                       | Respondent A | Respondent B | Respondent C |
+|--------------------------------|--------------|--------------|--------------|
+| Are you a UK citizen?          | ×            | ✓            | ×            |
+| Are you currently employed?    | ✓            | ×            | ✓            |
+| Do you have a driving licence? | ×            | ×            | ✓            |
 
 Table 14: symbols replaced by real text
 
@@ -160,21 +161,21 @@ B = Bachelor of Arts, C = Masters, D = Doctorate, E = Diploma
 |-------------------------|------|------|------|------|
 | Economics               | A, B | A, C | A, B | A, C |
 | International relations | A, E | A, E | A, B | A, E |
-| Philosophy              | A    | A    | A    | A, D |
-| Politics                | A, D | A, D | A, D | A    |
-| Mathematics             | B, C | B    | A, E | A, B |
-| English                 | A, C | A, B | A,B  | C    |
+| Philosophy              | Α    | Α    | Α    | A, D |
+| Politics                | A, D | A, D | A, D | Α    |
+| Mathematics             | B, C | В    | A, E | A, B |
+| English                 | A, C | A, B | A,B  | С    |
 
 **Table 16: Masters courses offered by Institution X** 
 
-|                                | <b>2006</b> | <b>2007</b> | <b>2008</b> | <b>2009</b> |
-|--------------------------------|-------------|-------------|-------------|-------------|
-| <b>Economics</b>               | No          | Yes         | Yes         | Yes         |
-| <b>International relations</b> | No          | No          | No          | No          |
-| <b>Philosophy</b>              | No          | No          | No          | No          |
-| <b>Politics</b>                | No          | No          | No          | No          |
-| <b>Mathematics</b>             | Yes         | No          | No          | No          |
-| <b>English</b>                 | Yes         | Yes         | Yes         | Yes         |
+|                         | 2006 | 2007 | 2008 | 2009 |
+|-------------------------|------|------|------|------|
+| Economics               | No   | Yes  | Yes  | Yes  |
+| International relations | No   | No   | No   | No   |
+| Philosophy              | No   | No   | No   | No   |
+| Politics                | No   | No   | No   | No   |
+| Mathematics             | Yes  | No   | No   | No   |
+| English                 | Yes  | Yes  | Yes  | Yes  |
 
 Table 17: accounts, 2011 (£, thousands)
 
@@ -219,15 +220,15 @@ Table 19: Human Development Index (HDI) trends, 1980 to 2010. Source: Barro-Lee 
 
 Table 20: footnotes referenced from within a table
 
-| Expenditure by function £million |                  | 2009/10 | 2010/111 |
-|----------------------------------|------------------|---------|----------|
-| Policy functions                 | Financial        | 22.5    | 30.57    |
-|                                  | Information2     | 10.2    | 14.8     |
-|                                  | Contingency      | 2.6     | 1.2      |
-| Remunerated functions            | Agency services3 | 44.7    | 35.91    |
-|                                  | Payments         | 22.41   | 19.88    |
-|                                  | Banking          | 22.90   | 44.23    |
-|                                  | Other            | 12.69   | 10.32    |
+| Expenditure by function £million |                              | 2009/10 | 2010/11 1 |
+|----------------------------------|------------------------------|---------|-----------|
+| Policy functions                 | Financial                    | 22.5    | 30.57     |
+|                                  | Information <sup>2</sup>     | 10.2    | 14.8      |
+|                                  | Contingency                  | 2.6     | 1.2       |
+| Remunerated functions            | Agency services <sup>3</sup> | 44.7    | 35.91     |
+|                                  | Payments                     | 22.41   | 19.88     |
+|                                  | Banking                      |         | 44.23     |
+|                                  | Other                        | 12.69   | 10.32     |
 
 - (1) Provisional total as of publication date.
 - (2) Costs associated with on-going information programmes.
@@ -260,28 +261,28 @@ Table 22: referencing multiple endnotes from within a table
 
 Table 23: simulated table created using tabs and containing no structure
 
-|      | 2008    |           | 2009    |           |
-|------|---------|-----------|---------|-----------|
-| Name | Entered | Completed | Entered | Completed |
-| Bob  | 22      | 21        | 20      | 19        |
-| Sue  | 44      | 12        | 12      | 10        |
+|      | 2008    |                   | 2009 |           |
+|------|---------|-------------------|------|-----------|
+| Name | Entered | Entered Completed |      | Completed |
+| Bob  | 22      | 21                | 20   | 19        |
+| Sue  | 44      | 12                | 12   | 10        |
 
 Table 24: year-end financial statement (£, thousands)
 
-|                     | 2010 | 2009 | 2008 |
-|---------------------|------|------|------|
-| Non-current assets  |      |      |      |
-| Buildings           | 345  | 445  | 222  |
-| Investment          | 567  | 654  | 423  |
-| Intangibles         | 423  | 123  | 453  |
-| Current assets      |      |      |      |
-| Trade               | 435  | 634  | 231  |
-| Cash                | 524  | 123  | 482  |
-| Other               | 223  | 211  | 254  |
-| Current liabilities |      |      |      |
-| Trade liabilities   | 154  | 125  | 421  |
-| Financial debt      | 231  | 474  | 572  |
-| Provisions          | 111  | 312  | 347  |
+|                     | 2010 | 2009 | 2008 |  |  |
+|---------------------|------|------|------|--|--|
+| Non-current assets  |      |      |      |  |  |
+| Buildings           | 345  | 445  | 222  |  |  |
+| Investment          | 567  | 654  | 423  |  |  |
+| Intangibles         | 423  | 123  | 453  |  |  |
+| Current assets      |      |      |      |  |  |
+| Trade               | 435  | 634  | 231  |  |  |
+| Cash                | 524  | 123  | 482  |  |  |
+| Other               | 223  | 211  | 254  |  |  |
+| Current liabilities |      |      |      |  |  |
+| Trade liabilities   | 154  | 125  | 421  |  |  |
+| Financial debt      | 231  | 474  | 572  |  |  |
+| Provisions          | 111  | 312  | 347  |  |  |
 
 Table 25: setting column and row scope via the tags panel
 
@@ -298,9 +299,9 @@ Table 26: courses offered by Institution X. A = Bachelor of Science, B = Bachelo
 |-------------------------|------|------|------|------|
 | Economics               | A, B | A, C | A, C | A, C |
 | International relations | A, E | A, E | A, B | A, B |
-| Philosophy              | A    | A    | A    | A    |
-| Politics                | A, D | A, D | A, B | A    |
-| Mathematics             | B, C | B    | A, B | A, B |
+| Philosophy              | А    | Α    | А    | А    |
+| Politics                | A, D | A, D | A, B | А    |
+| Mathematics             | B, C | В    | A, B | A, B |
 | English                 | A, C | A, B | A,B  | A, C |
 
 Table 27: "table" with columns simulated by using tab stops
@@ -330,17 +331,18 @@ Table 28: year-end financial table (£, thousands) – headings problem revisite
 
 Table 29: multiple headers attributes for each data cell
 
-|                     | South America | Asia  | Africa | Australia |
-|---------------------|---------------|-------|--------|-----------|
-|                     | 2010          |       |        |           |
-| Highest average     | 523.6         | 467.4 | 405.0  | 340.5     |
-| Highest in 24 hours | 73.1          | 54.1  | 27.2   | 66.3      |
-| Highest in 12 hours | 42.4          | 30.1  | 15.9   | 40.3      |
-|                     | 2009          |       |        |           |
-| Highest average     | 487.7         | 453.6 | 398.7  | 356       |
-| Highest in 24 hours | 67.2          | 53.2  | 44.3   | 53.8      |
-| Highest in 12 hours | 34.7          | 34.1  | 29.8   | 31.0      |
-|                     | 2008          |       |        |           |
-| Highest average     | 496.7         | 444.3 | 502.1  | 399.6     |
-| Highest in 24 hours | 44.2          | 56.7  | 32.1   | 63.2      |
-| Highest in 12 hours | 30.1          | 32.7  | 21.9   | 40.2      |
+|                     | South America | Asia     | Africa | Australia |
+|---------------------|---------------|----------|--------|-----------|
+|                     | 2010          | <u> </u> |        |           |
+| 2010                |               |          |        |           |
+| Highest average     | 523.6         | 467.4    | 405.0  | 340.5     |
+| Highest in 24 hours | 73.1          | 54.1     | 27.2   | 66.3      |
+| Highest in 12 hours | 42.4          | 30.1     | 15.9   | 40.3      |
+| 2009                |               |          |        |           |
+| Highest average     | 487.7         | 453.6    | 398.7  | 356       |
+| Highest in 24 hours | 67.2          | 53.2     | 44.3   | 53.8      |
+| Highest in 12 hours | 34.7          | 34.1     | 29.8   | 31.0      |
+| 2008                |               |          |        |           |
+| Highest average     | 496.7         | 444.3    | 502.1  | 399.6     |
+| Highest in 24 hours | 44.2          | 56.7     | 32.1   | 63.2      |
+| Highest in 12 hours | 30.1          | 32.7     | 21.9   | 40.2      |
